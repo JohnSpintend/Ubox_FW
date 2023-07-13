@@ -2,7 +2,7 @@
 
 Added the new UBOX_SINGLE_85_200 firmware for our new Ubox ALU 85V 200A controller.
 
-And raise the hardwarw limit of the input voltage of the Ubox ALU 80V 100A to 85V, in order to make convenience for the users who want run it with 20S battery.
+And raise the hardwarw limit of the input voltage of the Ubox ALU 80V 100A to 85V, in order to make convenience for the users who want run it with 20S battery, its default limit is 78V now.
 
 
 ----------
