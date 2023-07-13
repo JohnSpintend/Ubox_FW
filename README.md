@@ -1,6 +1,9 @@
 07/13/2023
+
 Added the new UBOX_SINGLE_85_200 firmware for our new Ubox ALU 85V 200A controller.
+
 And raise the hardwarw limit of the input voltage of the Ubox ALU 80V 100A to 85V, in order to make convenience for the users who want run it with 20S battery.
+
 
 ----------
 This is the compliled firmware of the Ubox family, version 5.02 and 5.03, and 6.0.
