@@ -6,7 +6,7 @@ Support both momentary button and latching button now, we need to use momentary 
 
 NOTE: Use latching button to do upgrade firmware! Because the MCU will reset itself to start to reprogram itself, and a reset it will release the power enable pin, cause power off, will brick the controller！Latching button will forcing to make power on, prevent bricking.
 
-When using momentaty button, press less than 1 second will make power on, will excute shutdown as configured on VESC tool. A hold pressing button more than 2 seconds then release the button can force shutdown the controller.
+When using momentaty button, press less than 1 second will make power on, then will excute shutdown as configured on VESC tool->App Config->ShutDown Mode. Hold press the button more than 2 seconds then release the button can force shutdown the controller.
 
 The button light driver of Ubox single 100V 100A, Ubox AlU 80V 100A, and Ubox ALU 85V 200A, are just copies of the green and red LED of the VESC status lights, so right after power on, the green light will not on immediately till the VESC finish the boot-up. So do the force shutdown, the green light is still on if you not release the button, because push the button will force power on.
 
