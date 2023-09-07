@@ -1,6 +1,6 @@
 09/09/2023
 
-Ubox single 100V 100A, Ubox AlU 80V 100A, Ubox ALU 85V 200A, are now support VESC's shutdown mode.
+Ubox single 100V 100A, Ubox ALU 80V 100A, Ubox ALU 85V 200A, are now support VESC's shutdown mode.
 
 Support both momentary button and latching button now, we need to use momentary button instead of latching button to use auto shutdown function.
 
