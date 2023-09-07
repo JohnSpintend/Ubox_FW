@@ -1,5 +1,7 @@
 09/09/2023
+
 Ubox single 100V 100A, Ubox AlU 80V 100A, Ubox ALU 85V 200A, now support VESC's shutdown mode.
+
 Support both momentary button and latching button now, we need to use momentary button instead of latching button to use auto shutdown function.
 
 NOTE: Use latching button to do upgrade firmware! Because the MCU will reset itself to start to reprogram itself, and a reset it will release the power enable pin, cause power off, will brick the controller！Latching button will forcing to make power on, prevent bricking.
