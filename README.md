@@ -6,6 +6,8 @@ https://sylerclayton.com/blog/Fixed-Critical-Bug-In-Ubox-VESC-Controller-Firmwar
 
 And added the auto off support to Ubox V2.1 75V, the planning upgrade model of the Ubox V2 75V.
 
+NOTE: Use latching button to do upgrade firmware! Because the MCU will reset itself to start to reprogram itself, and a reset it will release the power enable pin, cause power off, will brick the controller！Latching button will forcing to make power on, prevent bricking.
+
 ----
 09/09/2023
 
