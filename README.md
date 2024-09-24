@@ -1,3 +1,14 @@
+09/24/2024
+
+FW 6.05 release, fixed the bug that shuts down when running, contributed by Syler Clayton. Thanks to him!
+
+https://sylerclayton.com/blog/Fixed-Critical-Bug-In-Ubox-VESC-Controller-Firmware/
+
+And added the auto off support to Ubox V2.1 75V, the planning upgrade model of the Ubox V2 75V.
+
+NOTE: Use latching button to do upgrade firmware! Because the MCU will reset itself to start to reprogram itself, and a reset it will release the power enable pin, cause power off, will brick the controller！Latching button will forcing to make power on, prevent bricking.
+
+----
 09/09/2023
 
 Ubox single 100V 100A, Ubox ALU 80V 100A, Ubox ALU 85V 200A, are now support VESC's shutdown mode.
