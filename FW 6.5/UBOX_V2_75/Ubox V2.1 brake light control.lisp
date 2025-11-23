@@ -35,7 +35,6 @@
 ; (ext-reset-GPIOB-3)
 ; (ext-set-GPIOB-4)
 ; (ext-reset-GPIOB-4)
-;
 
 
 (def c 0)             ;current
