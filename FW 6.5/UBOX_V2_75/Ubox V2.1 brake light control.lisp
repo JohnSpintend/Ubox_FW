@@ -29,7 +29,6 @@
 
 
 (load-native-lib GPIO-B-3-4)
-
 ; After loading this library we get the extensions:
 ; (ext-GPIOB-3-4-init)
 ; (ext-set-GPIOB-3)
