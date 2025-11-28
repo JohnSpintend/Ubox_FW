@@ -1,4 +1,4 @@
-;Lisp script for Ubox V2.1's brake light control, with pre-comiled native lib,
+;An example Lisp script for Ubox V2.1's brake light control, with pre-comiled native lib,
 ;this lib providing PB3, PB4 direct operation
 ;https://github.com/JohnSpintend/Ubox_FW/tree/main/FW%206.5/UBOX_V2_75
 
